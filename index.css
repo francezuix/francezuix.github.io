@@ -162,22 +162,24 @@ header h3 {
   fill: rgba(198, 172, 143, 0.13);
 }
 
-.art-cursor {
+.art-mouse {
   right: max(1.5rem, 9vw);
   bottom: 8.5rem;
-  width: clamp(105px, 12vw, 165px);
+  width: clamp(100px, 11vw, 155px);
   fill: none;
   stroke: rgba(94, 80, 63, 0.16);
   stroke-width: 6;
-  transform: rotate(8deg);
+  transform: rotate(0deg);
 }
 
-.art-cursor-shape {
+.art-mouse-body,
+.art-mouse-wheel {
+  fill: rgba(198, 172, 143, 0.05);
+}
+
+.art-mouse-split,
+.art-mouse-click {
   fill: none;
-}
-
-.art-cursor-ray {
-  stroke-width: 5;
 }
 
 .art-avatar-frame {
@@ -789,7 +791,7 @@ a:active {
     opacity: 0.42;
   }
   .art-ui-window,
-  .art-cursor,
+  .art-mouse,
   .art-avatar-frame,
   .art-coins {
     display: none;
