@@ -162,14 +162,6 @@ header h3 {
   fill: rgba(198, 172, 143, 0.13);
 }
 
-.art-cursor {
-  right: max(1.5rem, 9vw);
-  bottom: 8.5rem;
-  width: clamp(105px, 12vw, 165px);
-  fill: rgba(198, 172, 143, 0.08);
-  transform: rotate(8deg);
-}
-
 .art-avatar-frame {
   top: 12.5rem;
   left: max(0.5rem, 2vw);
@@ -779,7 +771,6 @@ a:active {
     opacity: 0.42;
   }
   .art-ui-window,
-  .art-cursor,
   .art-avatar-frame,
   .art-coins {
     display: none;
