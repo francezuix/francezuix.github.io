@@ -146,8 +146,20 @@ header h3 {
   top: 9rem;
   left: max(1rem, 6vw);
   width: clamp(150px, 18vw, 260px);
-  stroke-dasharray: 9 15;
   transform: rotate(-6deg);
+}
+
+.art-flow-line {
+  stroke-dasharray: 9 15;
+}
+
+.art-flow-node,
+.art-flow-arrow {
+  stroke-dasharray: none;
+}
+
+.art-flow-node {
+  fill: rgba(198, 172, 143, 0.13);
 }
 
 .art-cursor {
