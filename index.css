@@ -109,16 +109,16 @@ header h3 {
   pointer-events: none;
   overflow: visible;
   fill: none;
-  stroke: rgba(94, 80, 63, 0.24);
-  stroke-width: 6;
+  stroke: rgba(94, 80, 63, 0.19);
+  stroke-width: 5;
   stroke-linecap: round;
   stroke-linejoin: round;
-  opacity: 0.95;
+  opacity: 0.78;
 }
 
 .section-art circle,
 .section-art ellipse {
-  fill: rgba(198, 172, 143, 0.14);
+  fill: rgba(198, 172, 143, 0.1);
 }
 
 .section-art rect,
@@ -127,65 +127,65 @@ header h3 {
 }
 
 .art-ui-window {
-  top: 6rem;
+  top: 7.5rem;
   right: max(1rem, 4vw);
-  width: clamp(150px, 17vw, 250px);
+  width: clamp(130px, 15vw, 220px);
   transform: rotate(7deg);
 }
 
 .art-sparkles {
-  bottom: 2rem;
-  left: max(1rem, 5vw);
-  width: clamp(120px, 14vw, 210px);
-  fill: rgba(198, 172, 143, 0.12);
-  stroke-width: 5;
-  transform: rotate(-10deg);
+  bottom: 4.5rem;
+  left: max(1.5rem, 6vw);
+  width: clamp(100px, 11vw, 165px);
+  fill: rgba(198, 172, 143, 0.08);
+  stroke-width: 4;
+  transform: rotate(-8deg);
 }
 
 .art-flow {
-  top: 7rem;
-  left: max(0.5rem, 5vw);
-  width: clamp(180px, 22vw, 330px);
-  stroke-dasharray: 10 16;
-  transform: rotate(-8deg);
+  top: 9rem;
+  left: max(1rem, 6vw);
+  width: clamp(150px, 18vw, 260px);
+  stroke-dasharray: 9 15;
+  transform: rotate(-6deg);
 }
 
 .art-cursor {
-  right: max(1rem, 8vw);
-  bottom: 7rem;
-  width: clamp(120px, 14vw, 190px);
-  fill: rgba(198, 172, 143, 0.1);
-  transform: rotate(9deg);
-}
-
-.art-avatar-frame {
-  top: 12rem;
-  left: max(0.5rem, 4vw);
-  width: clamp(130px, 16vw, 230px);
-  transform: rotate(-8deg);
-}
-
-.art-loops {
-  right: max(0.5rem, 3vw);
-  bottom: 9rem;
-  width: clamp(170px, 22vw, 320px);
-  stroke-dasharray: 14 14;
+  right: max(1.5rem, 9vw);
+  bottom: 8.5rem;
+  width: clamp(105px, 12vw, 165px);
+  fill: rgba(198, 172, 143, 0.08);
   transform: rotate(8deg);
 }
 
+.art-avatar-frame {
+  top: 12.5rem;
+  left: max(0.5rem, 2vw);
+  width: clamp(95px, 10vw, 150px);
+  transform: rotate(-7deg);
+}
+
+.art-loops {
+  right: max(1rem, 4vw);
+  bottom: 10rem;
+  width: clamp(140px, 18vw, 260px);
+  stroke-dasharray: 12 14;
+  transform: rotate(6deg);
+}
+
 .art-coins {
-  top: 8rem;
-  left: max(0.5rem, 5vw);
-  width: clamp(150px, 18vw, 260px);
-  fill: rgba(198, 172, 143, 0.09);
-  transform: rotate(-8deg);
+  top: 10rem;
+  left: max(1rem, 6vw);
+  width: clamp(120px, 14vw, 205px);
+  fill: rgba(198, 172, 143, 0.07);
+  transform: rotate(-6deg);
 }
 
 .art-hud {
-  right: max(0.5rem, 4vw);
-  bottom: 6rem;
-  width: clamp(180px, 22vw, 320px);
-  transform: rotate(6deg);
+  right: max(1rem, 5vw);
+  bottom: 7rem;
+  width: clamp(150px, 18vw, 260px);
+  transform: rotate(5deg);
 }
 
 .works {
